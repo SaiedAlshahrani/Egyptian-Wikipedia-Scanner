@@ -14,7 +14,7 @@ def clean_page_text(text):
     text = re.sub(r'\s+', ' ', text) #Replaces extra spaces with a single space.
     return text
 
-
+@st.cache(hash_funcs={"MyUnhashableClass": lambda _: None}
 def encode_page_text(page_text):
     tokenizer = BertTokenizer.from_pretrained('CAMeL-Lab/bert-base-arabic-camelbert-mix-pos-egy')
     model = AutoModel.from_pretrained('CAMeL-Lab/bert-base-arabic-camelbert-mix-pos-egy')
