@@ -38,9 +38,15 @@ def search_wikipedia(searchterm: str) -> List[any]:
     return wikipedia.search(searchterm) if searchterm else []
 
 
+@st.cache(hash_funcs={"MyUnhashableClass": lambda _: None}
+def load_xgb_model(model):
+    loaded_xgb_classifier = XGBClassifier()
+    loaded_xgb_classifier.load_model(model)
+    return loaded_xgb_classifier
+
+
 selected_title = st_searchbox(search_wikipedia, label="Search for an article in Egyptian Arabic Wikipedia:", 
                               placeholder="Search for an article", rerun_on_update=True, clear_on_submit=False, key="wiki_searchbox")
-
 
 if selected_title:
     X, article, dataframe, selected_title = prepare_features(selected_title)
@@ -49,9 +55,7 @@ if selected_title:
 
     st.dataframe(dataframe, hide_index=True , use_container_width=True)
 
-    loaded_xgb_classifier = XGBClassifier()
-
-    loaded_xgb_classifier.load_model("XGBoost_camelbert_metadata+embeddings.model")
+    loaded_xgb_classifier = load_xgb_model("XGBoost_camelbert_metadata+embeddings.model")
 
     id2label = {0:'Human-generated Article', 1:'Template-translated Article'}
 
