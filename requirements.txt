@@ -1,10 +1,12 @@
 numpy
+torch
 typing
 pandas
 xgboost
 requests
 wikipedia
 streamlit
+torchvision
 transformers
 beautifulsoup4
 streamlit-searchbox
