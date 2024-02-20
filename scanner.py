@@ -4,7 +4,7 @@ import wikipedia
 import streamlit as st
 from typing import List
 from scanner_utils import *
-from streamlit import caching
+# from streamlit import caching
 from xgboost import XGBClassifier
 from streamlit_searchbox import st_searchbox
 from transformers import logging as hflogging
@@ -77,7 +77,7 @@ if selected_title:
         st.write(article_text)
         st.write(f'> :globe_with_meridians: Read Full Text of **{selected_title}**: <br>{article.url}', unsafe_allow_html=True)
         
-        caching.clear_cache()
+        # caching.clear_cache()
 
     st.markdown('<br><br>', unsafe_allow_html=True)
 
