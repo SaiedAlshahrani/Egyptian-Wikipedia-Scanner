@@ -15,6 +15,7 @@ def clean_page_text(text):
     text = re.sub(r'\s+', ' ', text) #Replaces extra spaces with a single space.
     return text
 
+
 @st.cache_resource
 def encode_page_text(page_text):
     tokenizer = BertTokenizer.from_pretrained('CAMeL-Lab/bert-base-arabic-camelbert-mix-pos-egy')
@@ -26,6 +27,7 @@ def encode_page_text(page_text):
     return encoded_page_text
 
 
+@st.cache_data
 def get_page_info(title):
     page_info = f"https://xtools.wmcloud.org/api/page/articleinfo/arz.wikipedia.org/{title}?format=json"
 
@@ -37,6 +39,7 @@ def get_page_info(title):
     return creation_date, creator_name, total_edits, total_editors
 
 
+@st.cache_data
 def get_page_prose(title):
     page_prose = f"https://xtools.wmcloud.org/api/page/prose/arz.wikipedia.org/{title}?format=json"
 
@@ -47,6 +50,7 @@ def get_page_prose(title):
     return total_bytes, total_words, total_chars
 
 
+@st.cache_data
 def prepare_features(selected_title):
     dataframe = get_metadata_features(selected_title)
     
@@ -77,6 +81,7 @@ def prepare_features(selected_title):
     return X, article, dataframe, selected_title
 
 
+@st.cache_data
 def get_metadata_features(selected_title):
     creation_date, creator_name, total_edits, total_editors = get_page_info(selected_title)
     total_bytes, total_words, total_chars = get_page_prose(selected_title)
