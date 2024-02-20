@@ -6,7 +6,7 @@ from typing import List
 from scanner_utils import *
 from xgboost import XGBClassifier
 from streamlit_searchbox import st_searchbox
-from transformers import logging as flogging
+from transformers import logging as hflogging
 
 
 logging.disable(logging.WARNING)
