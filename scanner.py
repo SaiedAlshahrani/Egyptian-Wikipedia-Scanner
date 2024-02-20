@@ -38,7 +38,7 @@ def search_wikipedia(searchterm: str) -> List[any]:
     return wikipedia.search(searchterm) if searchterm else []
 
 
-@st.cache(hash_funcs={"MyUnhashableClass": lambda _: None}
+@st.cache_resource
 def load_xgb_model(model):
     loaded_xgb_classifier = XGBClassifier()
     loaded_xgb_classifier.load_model(model)
