@@ -1,0 +1,10 @@
+numpy
+typing
+pandas
+xgboost
+requests
+wikipedia
+streamlit
+transformers
+beautifulsoup4
+streamlit-searchbox
