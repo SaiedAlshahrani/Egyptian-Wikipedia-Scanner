@@ -15,6 +15,7 @@ hflogging.set_verbosity_warning()
 
 warnings.simplefilter(action='ignore', category=UserWarning)
 warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=DeprecationWarning)
 
 st.set_page_config(layout="centered", page_title="Egyptian Wikipedia Scanner", page_icon="🇪🇬")
 
