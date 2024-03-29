@@ -1,1 +1,2 @@
-# Egyptian Wikipedia Scanner
+# Egyptian Arabic Wikipedia Scanner
+Under construction
