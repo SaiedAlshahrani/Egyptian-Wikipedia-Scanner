@@ -87,7 +87,7 @@ if selected_title:
 
 footer="""
         <div class="footer"> <p class="p1">
-        Copyright © 2024 by *********************<br>
+        Copyright © 2024 by Saied Alshahrani<br>
         Hosted with Streamlit Community Cloud</p> </div>
 """
 st.markdown(footer, unsafe_allow_html=True)
