@@ -1,6 +1,6 @@
 # Egyptian Arabic Wikipedia Scanner: Automatic Detection of Template-translated Articles in the Egyptian Wikipedia
 
-![alt text](https://github.com/SaiedAlshahrani/Egyptian-Wikipedia-Scanner/blob/main/banner.png?raw=true)
+![alt text](https://github.com/SaiedAlshahrani/Egyptian-Wikipedia-Scanner/blob/main/banner.png)
 
 🚧 Under construction
 
