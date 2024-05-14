@@ -55,7 +55,7 @@ if selected_title:
 
     st.dataframe(dataframe, hide_index=True , use_container_width=True)
 
-    loaded_xgb_classifier = load_xgb_model("XGBoost_camelbert_metadata+embeddings.model")
+    loaded_xgb_classifier = load_xgb_model("XGBoost.model")
 
     id2label = {0:'Human-generated Article', 1:'Template-translated Article'}
 
