@@ -2,8 +2,9 @@
 
 - [Application Description](#application-description)
 - [Application Features](#application-features)
-- [Application Dataset](#application-dataset)
+- [Application Datasets](#application-datasets)
 - [Application Citation](#application-citation)
+- [Application Local Run](#run-it-locally)
 
 ## Application Description:
 We release the source code of this web-based detection system, **Egyptian Arabic Wikipedia Scanner**, to automatically identify the template-translated articles on the Egyptian Arabic Wikipedia edition. We publically host this application on Streamlit Community Cloud, here: [https://egyptian-wikipedia-scanner.streamlit.app](https://egyptian-wikipedia-scanner.streamlit.app/), and for better accessibility, we also host it on Hugging Face Spaces, here: [https://huggingface.co/spaces/SaiedAlshahrani/Egyptian-Wikipedia-Scanner](https://huggingface.co/spaces/SaiedAlshahrani/Egyptian-Wikipedia-Scanner).
@@ -12,8 +13,31 @@ This web-based application is introduced in a research paper titled "[***Leverag
 
 ## Application Features:
 
-## Application Dataset:
+## Application Datasets:
 
+
+
+## Application Local Run:
+The application is publicly hosted online on Streamlit Community Cloud and Hugging Face Spaces, yet if you desire to run the application locally on your machine, follow these steps.
+
+1- Clone the application's GitHub repository to your machine. Use this command in your terminal:
+
+```bash
+git clone https://github.com/SaiedAlshahrani/Egyptian-Wikipedia-Scanner.git
+cd Egyptian-Wikipedia-Scanner 
+```
+
+2- Download the required Python packages. Use this command in your terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
+3- Run Streamlit local server. Use this command in your terminal:
+
+```bash
+streamlit run scanner.py
+```
 
 ## Application Citation: 
 Saied Alshahrani, Hesham Haroon, Ali Elfilali, Mariama Njie, and Jeanna Matthews. 2024. [Leveraging Corpus Metadata to Detect Template-based Translation: An Exploratory Case Study of the Egyptian Arabic Wikipedia Edition](https://arxiv.org/abs/2404.00565). *arXiv preprint arXiv:2404.00565*.
