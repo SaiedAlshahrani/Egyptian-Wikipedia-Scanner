@@ -3,8 +3,9 @@
 - [Application Description](#application-description)
 - [Application Features](#application-features)
 - [Application Datasets](#application-datasets)
-- [Application Citations](#application-citations)
 - [Application Local Run](#application-local-run)
+- [Application Citations](#application-citations)
+
 
 ## Application Description:
 We release the source code of this web-based detection system, **Egyptian Arabic Wikipedia Scanner**, to automatically identify the template-translated articles on the Egyptian Arabic Wikipedia edition. We publically host this application on Streamlit Community Cloud, here: [https://egyptian-wikipedia-scanner.streamlit.app](https://egyptian-wikipedia-scanner.streamlit.app/), and for better accessibility, we also host it on Hugging Face Spaces, here: [https://huggingface.co/spaces/SaiedAlshahrani/Egyptian-Wikipedia-Scanner](https://huggingface.co/spaces/SaiedAlshahrani/Egyptian-Wikipedia-Scanner).
@@ -39,7 +40,7 @@ pip install -r requirements.txt
 streamlit run scanner.py
 ```
 
-## Application Citation: 
+## Application Citations: 
 Saied Alshahrani, Hesham Haroon, Ali Elfilali, Mariama Njie, and Jeanna Matthews. 2024. [Leveraging Corpus Metadata to Detect Template-based Translation: An Exploratory Case Study of the Egyptian Arabic Wikipedia Edition](https://arxiv.org/abs/2404.00565). *arXiv preprint arXiv:2404.00565*.
 
 ```
