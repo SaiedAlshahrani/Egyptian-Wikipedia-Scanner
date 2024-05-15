@@ -17,7 +17,7 @@ This web-based application, **Egyptian Wikipedia Scanner**, allows users to sear
 
 <details><summary>Screenshot-1</summary><p align="center"><img src="https://github.com/SaiedAlshahrani/Egyptian-Wikipedia-Scanner/blob/main/Screenshot-1.png?raw=true"></p></details>
 
-<details><summary>Screenshot-2</summary>![](https://github.com/SaiedAlshahrani/Egyptian-Wikipedia-Scanner/blob/main/Screenshot-2.png?raw=true)</details>
+<details><summary>Screenshot-2</summary><p align="center"><img src="https://github.com/SaiedAlshahrani/Egyptian-Wikipedia-Scanner/blob/main/Screenshot-2.png?raw=true"></p></details>
 
 ## Application Datasets:
 We also release the heuristically filtered, manually processed, and automatically classified Egyptian Arabic Wikipedia articles dataset (balanced subset) that has been used to train and test this web-based application, **Egyptian Arabic Wikipedia Scanner**, on Hugging Face Hub, here: [https://huggingface.co/datasets/SaiedAlshahrani/Detect-Egyptian-Wikipedia-Articles](https://huggingface.co/datasets/SaiedAlshahrani/Detect-Egyptian-Wikipedia-Articles), and is also currently released under an MIT license.
