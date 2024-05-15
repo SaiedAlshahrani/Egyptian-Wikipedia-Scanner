@@ -15,7 +15,11 @@ This web-based application is introduced in a research paper titled "[***Leverag
 ## Application Features:
 This web-based application, **Egyptian Wikipedia Scanner**, allows users to search for an article directly or select a suggested article retrieved using fuzzy search from the Egyptian Arabic Wikipedia edition. The application automatically fetches the article’s metadata (using the Wikimedia [XTools API](https://www.mediawiki.org/wiki/XTools)), displays the fetched metadata in a table, and automatically classifies the article as `human-generated` or `template-translated`. The application also dynamically displays the full summary of the article and provides the URL to the article to read the full text, as shown in the screenshots below.
 
-<details><summary>Screenshot-1</summary>![](https://github.com/SaiedAlshahrani/Egyptian-Wikipedia-Scanner/blob/main/Screenshot-1.png?raw=true)</details>
+<details>
+	<summary>Screenshot-1</summary>
+	![alt text](https://github.com/SaiedAlshahrani/Egyptian-Wikipedia-Scanner/blob/main/Screenshot-1.png?raw=true)
+</details>
+
 <details><summary>Screenshot-2</summary>![](https://github.com/SaiedAlshahrani/Egyptian-Wikipedia-Scanner/blob/main/Screenshot-2.png?raw=true)</details>
 
 ## Application Datasets:
