@@ -15,7 +15,7 @@ This web-based application is introduced in a research paper titled "[***Leverag
 ## Application Features:
 
 ## Application Datasets:
-
+We also release the heuristically filtered, manually processed, and automatically classified Egyptian Arabic Wikipedia articles dataset that has been used to train and test this web-based application, **Egyptian Arabic Wikipedia Scanner**, on Hugging Face Hub, here: [https://huggingface.co/datasets/SaiedAlshahrani/Detect-Egyptian-Wikipedia-Articles](https://huggingface.co/datasets/SaiedAlshahrani/Detect-Egyptian-Wikipedia-Articles), and is also currently released under an MIT license.
 
 
 ## Application Local Run:
