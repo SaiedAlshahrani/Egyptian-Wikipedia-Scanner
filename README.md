@@ -23,7 +23,7 @@ This web-based application, **Egyptian Wikipedia Scanner**, allows users to sear
 We also release the heuristically filtered, manually processed, and automatically classified Egyptian Arabic Wikipedia articles dataset (balanced subset) that has been used to train and test this web-based application, **Egyptian Arabic Wikipedia Scanner**, on Hugging Face Hub, here: [https://huggingface.co/datasets/SaiedAlshahrani/Detect-Egyptian-Wikipedia-Articles](https://huggingface.co/datasets/SaiedAlshahrani/Detect-Egyptian-Wikipedia-Articles), and is also currently released under an MIT license.
 
 ## Application Local Run:
-This web-based application is publicly hosted online on Streamlit Community Cloud and Hugging Face Spaces, yet if you desire to run the application locally on your machine, follow these steps.
+This web-based application, **Egyptian Wikipedia Scanner**, is publicly hosted online on Streamlit Community Cloud and Hugging Face Spaces, yet if you desire to run the application locally on your machine, follow these steps.
 
 1- Clone the application's GitHub repository to your machine. Use this command in your terminal:
 
