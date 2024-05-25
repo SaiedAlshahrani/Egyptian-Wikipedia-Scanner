@@ -45,18 +45,6 @@ streamlit run scanner.py
 ```
 
 ## Application Citations: 
-Saied Alshahrani, Hesham Haroon, Ali Elfilali, Mariama Njie, and Jeanna Matthews. 2024. [Leveraging Corpus Metadata to Detect Template-based Translation: An Exploratory Case Study of the Egyptian Arabic Wikipedia Edition](https://arxiv.org/abs/2404.00565). *arXiv preprint arXiv:2404.00565*.
+<s>Saied Alshahrani, Hesham Haroon, Ali Elfilali, Mariama Njie, and Jeanna Matthews. 2024. [Leveraging Corpus Metadata to Detect Template-based Translation: An Exploratory Case Study of the Egyptian Arabic Wikipedia Edition](https://arxiv.org/abs/2404.00565). *arXiv preprint arXiv:2404.00565*.</s>
 
-```
-@article{alshahrani2024leveraging,
-      title={Leveraging Corpus Metadata to Detect Template-based Translation: An Exploratory Case Study of the Egyptian Arabic Wikipedia Edition}, 
-      author={Saied Alshahrani and Hesham Haroon and Ali Elfilali and Mariama Njie and Jeanna Matthews},
-      year={2024},
-      eprint={2404.00565},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-      journal={arXiv preprint arXiv:2404.00565},
-      url={https://arxiv.org/abs/2404.00565}
-}
-```
-```
+Saied Alshahrani, Hesham Haroon, Ali Elfilali, Mariama Njie, and Jeanna Matthews. 2024. [Leveraging Corpus Metadata to Detect Template-based Translation: An Exploratory Case Study of the Egyptian Arabic Wikipedia Edition](https://aclanthology.org/2024.osact-1.4/). *In Proceedings of the 6th Workshop on Open-Source Arabic Corpora and Processing Tools (OSACT) with Shared Tasks on Arabic LLMs Hallucination and Dialect to MSA Machine Translation @ LREC-COLING 2024*, pages 31–45, Torino, Italia. ELRA and ICCL.*
